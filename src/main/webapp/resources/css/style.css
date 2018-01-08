@@ -1,0 +1,43 @@
+#app {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	color: #222274;
+}
+
+.v-spacer {
+	height: 10px;
+}
+
+.tb-cell {
+	display: table-cell;
+	padding: 2px 4px 2px 4px;
+	border: 1px solid #222274;
+}
+.tb-row {
+	display: table-row;
+	cursor: pointer;
+}
+
+.tb-row:hover {
+	background: #D9D9FF;
+}
+
+.tb-row-head {
+	display: table-row;
+	font-weight: bold;
+	background: #6666F1;
+	color: white;
+	border: white;
+}
+.tb-table {
+	display: table; border: 1px solid #222274;
+}
+
+.dt-title {
+	font-weight: bolder;
+}
+
+.dt-info {
+	text-decoration: underline;
+	display: inline-block;
+}
